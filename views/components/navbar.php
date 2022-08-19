@@ -89,8 +89,7 @@
 
               foreach($reg as $value)
               {
-                
-                echo "<li><a class='dropdown-item clr-blanco' href='verCategoria.php?categoria=$value->cve_pcat'>".$value->prenda."</a></li>
+                echo "<li><a class='dropdown-item clr-blanco' href='http://localhost/pinchevicky/views/verCategoria.php?categoria=$value->cve_pcat'>".$value->prenda."</a></li>
                 <li><hr class='dropdown-divider'></li>";
               }
               echo "</ul>";
